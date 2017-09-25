@@ -1,15 +1,15 @@
 def prime?(num)
-  if num == 0 or number == 1
+  if num == 0 or num == 1
     return false
-  end 
+  end
   i = 2
-  limit = num / i 
+  limit = num / i
   while i < limit
-    if num % i == 0 
+    if num % i == 0
       return false
     end
     i += 1
-    limit = number / i 
+    limit = num / i
   end
   return true
   end
