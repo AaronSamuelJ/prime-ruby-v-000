@@ -12,5 +12,4 @@ def prime?(num)
     limit = num / i
   end
   return true
-  end
 end
