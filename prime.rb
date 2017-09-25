@@ -9,7 +9,6 @@ def prime?(num)
       return false
     end
     i += 1
-    limit = num / i
   end
   return true
 end
